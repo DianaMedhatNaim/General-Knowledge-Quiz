@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Write your name please."
+            android:inputType="textCapWords"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1-This Royal Crab is found in south America.What is it?"
+            android:padding="12dp"
+            style="@style/HeaderTextStyle" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/marbledrockcrab_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Marbled Rock Crab"
+                    android:textSize="15sp"
+                    android:textAppearance="?android:textAppearanceMedium" />
+                <RadioButton
+                    android:id="@+id/DungenessCrab_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dungeness Crab"
+                    android:textSize="15sp"
+                    android:textAppearance="?android:textAppearanceMedium" />
+                <RadioButton
+                    android:id="@+id/southern_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="southern king crab"
+                    android:textSize="15sp"
+                    android:textAppearance="?android:textAppearanceMedium" />
+                <RadioButton
+                    android:id="@+id/Red_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Red-clawed crab"
+                    android:textSize="15sp"
+                    android:textAppearance="?android:textAppearanceMedium" />
+            </RadioGroup>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/crab2" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2-Which of these is the Largest?"
+            android:padding="12dp"
+            style="@style/HeaderTextStyle" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/virus_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="virus"
+                    android:textSize="15sp"
+                    android:textAppearance="?android:textAppearanceMedium" />
+                <RadioButton
+                    android:id="@+id/bacterium_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="bacterium"
+                    android:textSize="15sp"
+                    android:textAppearance="?android:textAppearanceMedium" />
+                <RadioButton
+                    android:id="@+id/atom_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="atom"
+                    android:textSize="15sp"
+                    android:textAppearance="?android:textAppearanceMedium" />
+                <RadioButton
+                    android:id="@+id/molecule_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="molecule"
+                    android:textSize="15sp"
+                    android:textAppearance="?android:textAppearanceMedium" />
+            </RadioGroup>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3-Which is an allotrope of carbon?"
+            style="@style/HeaderTextStyle"
+            android:padding="12dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/silica_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="silica"
+                    android:textSize="15sp"
+                    android:textAppearance="?android:textAppearanceMedium" />
+                <RadioButton
+                    android:id="@+id/cobalt_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="cobalt"
+                    android:textSize="15sp"
+                    android:textAppearance="?android:textAppearanceMedium" />
+                <RadioButton
+                    android:id="@+id/Graphite_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Graphite"
+                    android:textSize="15sp"
+                    android:textAppearance="?android:textAppearanceMedium" />
+                <RadioButton
+                    android:id="@+id/lead_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="lead"
+                    android:textSize="15sp"
+                    android:textAppearance="?android:textAppearanceMedium" />
+            </RadioGroup>
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="100dp"
+                android:src="@drawable/carbon" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4-What is the Largest Living Fish?"
+            style="@style/HeaderTextStyle"
+            android:padding="12dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/whaleshark_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="whale shark"
+                    android:textSize="15sp"
+                    android:textAppearance="?android:textAppearanceMedium" />
+                <RadioButton
+                    android:id="@+id/sunfish_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sunfish"
+                    android:textSize="15sp"
+                    android:textAppearance="?android:textAppearanceMedium" />
+                <RadioButton
+                    android:id="@+id/bluewhale_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="blue whale"
+                    android:textSize="15sp"
+                    android:textAppearance="?android:textAppearanceMedium" />
+                <RadioButton
+                    android:id="@+id/mantaray_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="manta ray"
+                    android:textSize="15sp"
+                    android:textAppearance="?android:textAppearanceMedium" />
+            </RadioGroup>
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="100dp"
+                android:src="@drawable/bl" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5-What is an example of a viral infection?"
+            style="@style/HeaderTextStyle"
+            android:padding="12dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/cancer_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="cancer"
+                    android:textSize="15sp"
+                    android:textAppearance="?android:textAppearanceMedium" />
+                <RadioButton
+                    android:id="@+id/stroke_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="stroke"
+                    android:textSize="15sp"
+                    android:textAppearance="?android:textAppearanceMedium" />
+                <RadioButton
+                    android:id="@+id/Gout_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gout"
+                    android:textSize="15sp"
+                    android:textAppearance="?android:textAppearanceMedium" />
+                <RadioButton
+                    android:id="@+id/polio_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="polio"
+                    android:textSize="15sp"
+                    android:textAppearance="?android:textAppearanceMedium" />
+            </RadioGroup>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6-Who are the Presidents of America?"
+            style="@style/HeaderTextStyle"
+            android:padding="12dp" />
+        <CheckBox
+            android:id="@+id/Barack_Obama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Barack Obama"
+            android:paddingLeft="24dp"
+            android:textSize="16sp"/>
+        <CheckBox
+            android:id="@+id/Enrique_Peña_Nieto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enrique Peña Nieto"
+            android:paddingLeft="24dp"
+            android:textSize="16sp"/>
+        <CheckBox
+            android:id="@+id/Bill_Clinton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bill Clinton"
+            android:paddingLeft="24dp"
+            android:textSize="16sp"/>
+        <CheckBox
+            android:id="@+id/Ernesto_Zedillo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ernesto Zedillo"
+            android:paddingLeft="24dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7-What is the capital city of Mexico?"
+            style="@style/HeaderTextStyle"
+            android:padding="12dp" />
+        <EditText
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=".................."
+            android:layout_marginBottom="16dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:onClick="submit"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+</ScrollView>
